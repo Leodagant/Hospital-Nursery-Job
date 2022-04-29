@@ -13,7 +13,7 @@
                     <a href="#">Nous contactez</a>
                 </div>
                 <div class="flex_right">
-                    <p>partie de droite</p>
+                    <img src="asset/img/HeroImage.png" alt="">
                 </div>
             </div>
         </div>
