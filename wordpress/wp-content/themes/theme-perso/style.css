@@ -44,3 +44,66 @@ ul, li {
     color: white;
     padding: 0.5rem 1.2rem;
 }
+
+/*HOME*/
+#home .home_flex {
+    display: flex;
+    margin-top: 3rem;
+}
+#home .flex_left {
+    width: 49%;
+    margin: auto 0;
+}
+#home .flex_left h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+#home .flex_left h2 {
+    color: var(--jaune);
+    margin-bottom: 1rem;
+}
+#home .flex_left p {
+    margin-bottom: 2rem;
+    color: var(--gris);
+}
+#home .flex_left a {
+    border: var(--jaune) solid 1px;
+    border-radius: 20px;
+    background-color: var(--jaune);
+    color: white;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+#home .flex_right {
+    width: 49%;
+}
+#home .flex_right img {
+    width: 600px;
+    height: 600px;
+}
+/*A propos*/
+
+#apropos .home_flex {
+    display: flex;
+    margin-top: 3rem;
+}
+#apropos .flex_left {
+    width: 49%;
+    margin: auto 0;
+}
+#apropos .flex_left h1 {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+#apropos .flex_left p {
+    margin-bottom: 2rem;
+    color: var(--gris);
+}
+#apropos .flex_right {
+    width: 49%;
+}
+#apropos .flex_right img {
+    width: 400px;
+    height: 400px;
+    margin-left: 25%;
+}

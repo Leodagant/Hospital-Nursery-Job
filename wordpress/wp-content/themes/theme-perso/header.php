@@ -24,7 +24,7 @@
                         <li><a href="#">A propos</a></li>
                         <li><a href="#">Photo</a></li>
                         <li><a href="#">Info</a></li>
-                        <li><a href="#" class="contact">Nous contacter</a></li>
+                        <li><a href="#" class="contact">Nous contactez</a></li>
                     </ul>
                 </nav>
             </div>

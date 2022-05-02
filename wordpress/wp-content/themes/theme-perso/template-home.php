@@ -13,7 +13,7 @@
                     <a href="#">Nous contactez</a>
                 </div>
                 <div class="flex_right">
-                    <img src="asset/img/HeroImage.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/asset/img/heroimage.png" alt="Logo Hospital Nursery Job" />
                 </div>
             </div>
         </div>
