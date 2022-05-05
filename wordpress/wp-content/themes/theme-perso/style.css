@@ -27,15 +27,21 @@ ul, li {
     display: flex;
     justify-content: space-between;
 }
+#header .header_flex .logo h1 {
+    font-size: 2rem;
+}
 #header .header_flex .header_nav nav ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 2rem;
 }
 #header .header_flex .header_nav nav ul a {
     text-decoration: none;
     color: var(--gris);
+}
+#header .header_flex .header_nav nav ul a:hover {
+    color: var(--jaune);
 }
 #header .header_flex .header_nav nav ul .contact {
     border: var(--jaune) solid 1px;
@@ -43,6 +49,10 @@ ul, li {
     background-color: var(--jaune);
     color: white;
     padding: 0.5rem 1.2rem;
+}
+#header .header_flex .header_nav nav ul .contact:hover {
+background-color: white;
+    color: var(--jaune);
 }
 
 /*HOME*/
@@ -68,11 +78,15 @@ ul, li {
 }
 #home .flex_left a {
     border: var(--jaune) solid 1px;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: var(--jaune);
     color: white;
-    padding: 0.5rem 2rem;
+    padding: 1.2rem 3rem;
     text-decoration: none;
+}
+#home .flex_left a:hover {
+    background-color: white;
+    color: var(--jaune);
 }
 #home .flex_right {
     width: 49%;
@@ -80,6 +94,21 @@ ul, li {
 #home .flex_right img {
     width: 600px;
     height: 600px;
+}
+#home .presentation {
+    margin-top: 2rem;
+}
+#home .presentation .bloc{
+    width: 30%;
+    text-align: center;
+}
+#home .presentation .bloc img{
+    width: 60%;
+}
+#home .presentation .blocs{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 /*A propos*/
 
@@ -106,4 +135,167 @@ ul, li {
     width: 400px;
     height: 400px;
     margin-left: 25%;
+}
+/*Chantier*/
+#chantier .home_flex {
+    display: flex;
+    margin-top: 3rem;
+}
+#chantier .flex_left {
+    width: 49%;
+    margin: auto 0;
+}
+#chantier .flex_left h1 {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+#chantier .flex_left p {
+    margin-bottom: 2rem;
+    color: var(--gris);
+}
+#chantier .flex_right {
+    width: 49%;
+}
+#chantier .flex_right img {
+    width: 400px;
+    height: 400px;
+    margin-left: 25%;
+}
+/*Infos*/
+#infos .home_flex {
+    display: flex;
+    margin-top: 3rem;
+}
+#infos .flex_left {
+    width: 49%;
+    margin: auto 0;
+}
+#infos .flex_left h1 {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+#infos .flex_left p {
+    margin-bottom: 2rem;
+    color: var(--gris);
+}
+#infos .flex_right {
+    width: 49%;
+}
+#infos .flex_right img {
+    width: 400px;
+    height: 400px;
+    margin-left: 25%;
+}
+/*Contact*/
+#contact .home_flex {
+    display: flex;
+    margin-top: 3rem;
+}
+#contact .flex_left {
+    width: 49%;
+    margin: auto 0;
+}
+#contact .flex_left h1 {
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+#contact .flex_right {
+    width: 49%;
+}
+#contact .flex_right img {
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 5rem;
+}
+/*Form Contact*/
+#contact label {
+    font-size: 1.2rem;
+}
+#contact .form2 {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+#contact .form2 div {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+}
+#contact .form2 input {
+    width: 300px;
+    margin-bottom: 1rem;
+
+    background-color: var(--jaune);
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem;
+
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+#contact .form2 .input_message input {
+    padding-bottom: 5rem;
+}
+#contact .form1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+}
+#contact .form1 input {
+    width: 140px;
+    margin-bottom: 1rem;
+
+    background-color: var(--jaune);
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem;
+
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+#contact .form2 textarea {
+    width: 300px;
+    margin-bottom: 1rem;
+    resize: none;
+
+    background-color: var(--jaune);
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 5rem;
+
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+#contact .form1 .form_nom, .form_prenom{
+    display: flex;
+    flex-flow: column;
+}
+#contact .input_submit {
+    display: flex;
+    justify-content: center;
+}
+#contact .flex_left form .submitted {
+    border: var(--jaune) solid 1px;
+    border-radius: 20px;
+    background-color: var(--jaune);
+    color: white;
+    padding: 0.8rem 4rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    cursor: pointer;
+
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+#contact .flex_left form .submitted:hover {
+    color: var(--jaune);
+    background-color: white;
 }

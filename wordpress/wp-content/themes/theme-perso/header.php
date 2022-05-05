@@ -20,11 +20,11 @@
             <div class="header_nav">
                 <nav>
                     <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">A propos</a></li>
-                        <li><a href="#">Photo</a></li>
-                        <li><a href="#">Info</a></li>
-                        <li><a href="#" class="contact">Nous contactez</a></li>
+                        <li><a href="<?php echo get_the_permalink(10) ?>">Accueil</a></li>
+                        <li><a href="<?php echo get_the_permalink(16) ?>>">A propos</a></li>
+                        <li><a href="<?php echo get_the_permalink(18) ?>">Chantier</a></li>
+                        <li><a href="<?php echo get_the_permalink(20) ?>">Info</a></li>
+                        <li><a href="<?php echo get_the_permalink(22) ?>" class="contact">Nous contacter</a></li>
                     </ul>
                 </nav>
             </div>

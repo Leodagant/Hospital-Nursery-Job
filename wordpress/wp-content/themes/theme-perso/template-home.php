@@ -16,6 +16,22 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/asset/img/heroimage.png" alt="Logo Hospital Nursery Job" />
                 </div>
             </div>
+            <div class="presentation">
+               <div class="blocs">
+                   <div class="bloc">
+                       <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                       <p>Notre expérience</p>
+                   </div>
+                   <div class="bloc">
+                       <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                       <p>Votre artisan local</p>
+                   </div>
+                   <div class="bloc">
+                       <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                       <p>Un devis gratuit</p>
+                   </div>
+               </div>
+            </div>
         </div>
     </section>
 
