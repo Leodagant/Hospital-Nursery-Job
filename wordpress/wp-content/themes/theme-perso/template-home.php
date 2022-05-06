@@ -32,6 +32,83 @@
                    </div>
                </div>
             </div>
+            <div class="service">
+                <h1>Rénovation, dépannage électrique à .......</h1>
+                <div class="service_bloc">
+                    <div class="bloc">
+                        <div class="bloc_image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                        </div>
+                        <div class="bloc_text">
+                            <h3>Notre expérience</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis unde, voluptatem. Architecto at distinctio, dolor ducimus molestias rem repellat voluptatem? Ab enim magni perspiciatis quaerat?</p>
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="bloc_image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                        </div>
+                        <div class="bloc_text">
+                            <h3>Notre expérience</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis unde, voluptatem. Architecto at distinctio, dolor ducimus molestias rem repellat voluptatem? Ab enim magni perspiciatis quaerat?</p>
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="bloc_image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                        </div>
+                        <div class="bloc_text">
+                            <h3>Notre expérience</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis unde, voluptatem. Architecto at distinctio, dolor ducimus molestias rem repellat voluptatem? Ab enim magni perspiciatis quaerat?</p>
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="bloc_image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                        </div>
+                        <div class="bloc_text">
+                            <h3>Notre expérience</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis unde, voluptatem. Architecto at distinctio, dolor ducimus molestias rem repellat voluptatem? Ab enim magni perspiciatis quaerat?</p>
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="bloc_image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                        </div>
+                        <div class="bloc_text">
+                            <h3>Notre expérience</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis unde, voluptatem. Architecto at distinctio, dolor ducimus molestias rem repellat voluptatem? Ab enim magni perspiciatis quaerat?</p>
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="bloc_image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                        </div>
+                        <div class="bloc_text">
+                            <h3>Notre expérience</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis unde, voluptatem. Architecto at distinctio, dolor ducimus molestias rem repellat voluptatem? Ab enim magni perspiciatis quaerat?</p>
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="bloc_image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                        </div>
+                        <div class="bloc_text">
+                            <h3>Notre expérience</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis unde, voluptatem. Architecto at distinctio, dolor ducimus molestias rem repellat voluptatem? Ab enim magni perspiciatis quaerat?</p>
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="bloc_image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.png" alt="Cercle" />
+                        </div>
+                        <div class="bloc_text">
+                            <h3>Notre expérience</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis unde, voluptatem. Architecto at distinctio, dolor ducimus molestias rem repellat voluptatem? Ab enim magni perspiciatis quaerat?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

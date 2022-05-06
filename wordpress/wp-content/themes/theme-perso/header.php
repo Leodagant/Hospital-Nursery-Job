@@ -5,6 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <?php wp_head(); ?>
     <title>Document</title>
@@ -15,7 +18,7 @@
     <div class="wrap">
         <div class="header_flex">
             <div class="logo">
-                <h1>MEL<span class="span_logo">EC</span></h1>
+                <a href="<?php echo get_the_permalink(10) ?>"><h1>MEL<span class="span_logo">EC</span></h1></a>
             </div>
             <div class="header_nav">
                 <nav>
