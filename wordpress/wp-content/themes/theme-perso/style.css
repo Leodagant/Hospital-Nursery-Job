@@ -25,45 +25,62 @@ ul, li {
     background-color: var(--jaune);
     margin: 1rem 0;
 }
+.menu_burger {
+    display: none;
+}
 /*HEADER*/
 
 #header {
     margin: 1rem 0;
 }
-#header .header_flex {
-    display: flex;
-    justify-content: space-between;
-}
-#header .header_flex .logo h1 {
-    font-size: 2rem;
-}
-#header .header_flex .logo a {
-    text-decoration: none;
-    color: black;
-}
-#header .header_flex .header_nav nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    gap: 2rem;
-}
-#header .header_flex .header_nav nav ul a {
-    text-decoration: none;
+#header a.nav-link  {
     color: var(--gris);
+    text-decoration: none;
 }
-#header .header_flex .header_nav nav ul a:hover {
+#header a.nav-link:hover {
     color: var(--jaune);
 }
-#header .header_flex .header_nav nav ul .contact {
+#header #header_btn {
     border: var(--jaune) solid 1px;
     border-radius: 20px;
     background-color: var(--jaune);
     color: white;
     padding: 0.5rem 1.2rem;
 }
-#header .header_flex .header_nav nav ul .contact:hover {
-background-color: white;
+#header #header_btn:hover {
+    background-color: white;
     color: var(--jaune);
+}
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav-branding {
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
 }
 /*Footer*/
 #footer {
@@ -391,60 +408,5 @@ background-color: white;
     color: var(--jaune);
     background-color: white;
 }
+ /*TEST*/
 
-/*Responsive*/
-
-@media only screen and (max-width: 700px) {
-    #contact .flex_right {
-       display: none;
-    }
-    #contact .flex_left {
-        width: 100%;
-        margin: auto 0;
-    }
-}
-@media only screen and (max-width: 500px) {
-    #infos .flex_right {
-        display: none;
-    }
-    #infos .flex_left {
-        width: 100%;
-        margin: auto 0;
-    }
-    #infos .flex_left h1 {
-        text-align: center;
-    }
-    #infos .flex_left p {
-        text-align: center;
-    }
-
-
-    #chantier .flex_right {
-        display: none;
-    }
-    #chantier .flex_left {
-        width: 100%;
-        margin: auto 0;
-    }
-    #chantier .flex_left h1 {
-        text-align: center;
-    }
-    #chantier .flex_left p {
-        text-align: center;
-    }
-
-
-    #apropos .flex_right {
-        display: none;
-    }
-    #apropos .flex_left {
-        width: 100%;
-        margin: auto 0;
-    }
-    #apropos .flex_left h1 {
-        text-align: center;
-    }
-    #apropos .flex_left p {
-        text-align: center;
-    }
-}
