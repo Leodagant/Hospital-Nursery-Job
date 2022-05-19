@@ -1,5 +1,5 @@
 /*Responsive*/
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
     .burger {
         display: block;
     }
@@ -29,6 +29,16 @@
     }
     .nav-menu.active{
         left: 0;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #home .service .service_bloc {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    #home .service .service_bloc .bloc {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 700px) {
@@ -134,5 +144,13 @@
     }
     #footer .footer_flex .footer_bloc{
         margin-bottom: 0.5rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #home .service .service_bloc .bloc {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
     }
 }
