@@ -15,22 +15,6 @@
 
 <section id="header">
     <div class="wrap">
-<!--        <div class="header_flex">-->
-<!--            <div class="logo">-->
-<!--                <a href="--><?php //echo get_the_permalink(10) ?><!--"><h1>MEL<span class="span_logo">EC</span></h1></a>-->
-<!--            </div>-->
-<!--            <div class="header_nav">-->
-<!--                <nav>-->
-<!--                    <ul>-->
-<!--                        <li><a href="--><?php //echo get_the_permalink(10) ?><!--">Accueil</a></li>-->
-<!--                        <li><a href="--><?php //echo get_the_permalink(16) ?><!--">A propos</a></li>-->
-<!--                        <li><a href="--><?php //echo get_the_permalink(18) ?><!--">Chantier</a></li>-->
-<!--                        <li><a href="--><?php //echo get_the_permalink(20) ?><!--">Info</a></li>-->
-<!--                        <li><a href="--><?php //echo get_the_permalink(22) ?><!--" class="contact">Nous contacter</a></li>-->
-<!--                    </ul>-->
-<!--                </nav>-->
-<!--            </div>-->
-<!--        </div>-->
         <nav class="navbar">
             <h1><a href="<?php echo get_the_permalink(10) ?>" class="nav-branding">MEL<span class="span_logo">EC</span></a></h1>
 
