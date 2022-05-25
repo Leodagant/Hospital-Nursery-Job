@@ -5,8 +5,22 @@
     }
 }
 @media only screen and (max-width: 900px) {
+    #header {
+        background-color: white;
+    }
+    #header .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 99999;
+    }
+    #home .home_flex {
+        margin-top: 6rem;
+    }
     .burger {
         display: block;
+        margin-right: 2rem;
     }
     .burger.active .bar:nth-child(2){
         opacity: 0;
@@ -34,6 +48,7 @@
     }
     .nav-menu.active{
         left: 0;
+        top: 0;
     }
     #home .service h1 {
         font-size: 2rem;
