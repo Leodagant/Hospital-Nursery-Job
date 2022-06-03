@@ -180,11 +180,17 @@ function theme_styles()
 {
     // Load all of the styles that need to appear on all pages
     wp_enqueue_style( 'responsive', get_template_directory_uri() . '/responsive.css' );
+    wp_enqueue_style( 'flexslider', get_template_directory_uri() . '/flexslider.css' );
 }
 add_action('wp_enqueue_scripts', 'theme_styles');
 
 function custom_scripts() {
     wp_register_script( 'burger', get_template_directory_uri() . '/asset/js/burger.js' );
     wp_enqueue_script('burger');
+
+    wp_register_script( 'jqueryflexslider', get_template_directory_uri() . '/asset/js/jquery.flexslider-min.js' );
+    wp_enqueue_script('jqueryflexslider');
+
+
 }
 add_action( 'wp_enqueue_scripts', 'custom_scripts' );

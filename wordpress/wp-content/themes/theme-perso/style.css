@@ -218,6 +218,7 @@ ul, li {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    margin-bottom: 10rem;
 }
 #home .service .service_bloc .bloc {
     width: 48%;
@@ -234,6 +235,31 @@ ul, li {
 #home .service .service_bloc .bloc img {
     width: 200px;
     height: 200px;
+}
+#home .slider .blocs_slider {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#home .slider .slider_bloc {
+    width: 48%;
+}
+#home .slider .slider_gauche h2 {
+    margin-bottom: 2rem;
+}
+#home .slider .slider_gauche {
+    margin: auto;
+    font-size: 1.5rem;
+}
+#home .slider .slider_droite {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
+    border-radius: 20px;
+    padding: 8rem 2rem;
+}
+#home .slider .slider_droite p{
+    margin-top: 1rem;
 }
     /*A propos*/
 
